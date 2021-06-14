@@ -109,4 +109,4 @@ def preprocessing():
 
 if __name__ == '__main__' :
     data = preprocessing()
-    data.to_csv(path_arquivo_pprocessed)
+    data.to_csv(path_arquivo_pprocessed,index=False)
