@@ -1,7 +1,7 @@
 import os
 
-path_folder_raw = r'C:\Users\Olá\OneDrive - Fundacao Getulio Vargas - FGV\kim\Aulas ML\datasets\bases\raw'
-path_folder_pprocessed = r'C:\Users\Olá\OneDrive - Fundacao Getulio Vargas - FGV\kim\Aulas ML\datasets\bases\preprocessed'
+path_folder_raw = r'C:\Users\Olá\OneDrive - Fundacao Getulio Vargas - FGV\kim\aprendizado_de_maquina\datasets\bases\raw'
+path_folder_pprocessed = r'C:\Users\Olá\OneDrive - Fundacao Getulio Vargas - FGV\kim\aprendizado_de_maquina\datasets\bases\preprocessed'
 
 path_arquivo_brasil = os.path.join(path_folder_raw,'Brazil.csv')
 path_arquivo_argentina = os.path.join(path_folder_raw,'Argentina.csv')
