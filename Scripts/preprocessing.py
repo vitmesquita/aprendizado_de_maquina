@@ -62,7 +62,7 @@ def preprocessing():
 
     # Criando feature de score funcional
     for i in range(1,14):    
-        data['diff'+str(i)] = data['diff'+str(i)].map({2:0,1:1,3:1,4:1,9:1})
+        data['diff'+str(i)] = data['diff'+str(i)].map({2:1,1:0,3:0,4:0,9:0})
         
     data['functional_score'] = data[['diff1','diff2','diff3','diff4','diff5','diff6','diff7',
                                     'diff8','diff9','diff10','diff11','diff12','diff13']].sum(axis=1)
