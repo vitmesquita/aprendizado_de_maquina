@@ -1,8 +1,7 @@
 *.csv
-*.pdf
 *.png
 *.pyc
 *.ipynb
+datasets/
 zip/
-PDF/
 Notebooks/.ipynb_checkpoints/
