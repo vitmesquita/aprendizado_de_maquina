@@ -2,3 +2,7 @@
 *.pdf
 *.png
 *.pyc
+*.ipynb
+zip/
+PDF/
+Notebooks/.ipynb_checkpoints/
